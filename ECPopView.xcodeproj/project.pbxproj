@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB88818D2135BBC700AFC78B /* ECPopViewGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB88818C2135BBC700AFC78B /* ECPopViewGIF.gif */; };
 		EBF70B0221356A8300D413FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B0121356A8300D413FC /* AppDelegate.m */; };
 		EBF70B0521356A8300D413FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B0421356A8300D413FC /* ViewController.m */; };
 		EBF70B0821356A8300D413FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF70B0621356A8300D413FC /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB88818C2135BBC700AFC78B /* ECPopViewGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ECPopViewGIF.gif; path = ../../../../../ECPopViewGIF.gif; sourceTree = "<group>"; };
 		EBF70AFD21356A8300D413FC /* ECPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF70B0021356A8300D413FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBF70B0121356A8300D413FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		EBF70B1A21356B6300D413FC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				EB88818C2135BBC700AFC78B /* ECPopViewGIF.gif */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB88818D2135BBC700AFC78B /* ECPopViewGIF.gif in Resources */,
 				EBF70B0D21356A8500D413FC /* LaunchScreen.storyboard in Resources */,
 				EBF70B0A21356A8500D413FC /* Assets.xcassets in Resources */,
 				EBF70B0821356A8300D413FC /* Main.storyboard in Resources */,
