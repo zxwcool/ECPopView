@@ -13,6 +13,8 @@
 		EBF70B0A21356A8500D413FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF70B0921356A8500D413FC /* Assets.xcassets */; };
 		EBF70B0D21356A8500D413FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF70B0B21356A8500D413FC /* LaunchScreen.storyboard */; };
 		EBF70B1021356A8500D413FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B0F21356A8500D413FC /* main.m */; };
+		EBF70B1B21356B6300D413FC /* ECPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B1821356B6300D413FC /* ECPopView.m */; };
+		EBF70B1E21356D3400D413FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF70B1D21356D3400D413FC /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		EBF70B0C21356A8500D413FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF70B0E21356A8500D413FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF70B0F21356A8500D413FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF70B1821356B6300D413FC /* ECPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPopView.m; sourceTree = "<group>"; };
+		EBF70B1921356B6300D413FC /* ECPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPopView.h; sourceTree = "<group>"; };
+		EBF70B1D21356D3400D413FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF70B1E21356D3400D413FC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +49,9 @@
 			isa = PBXGroup;
 			children = (
 				EBF70AFF21356A8300D413FC /* ECPopView */,
+				EBF70B1621356B6300D413FC /* ECPopView */,
 				EBF70AFE21356A8300D413FC /* Products */,
+				EBF70B1C21356D3300D413FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +77,40 @@
 				EBF70B0F21356A8500D413FC /* main.m */,
 			);
 			path = ECPopView;
+			sourceTree = "<group>";
+		};
+		EBF70B1621356B6300D413FC /* ECPopView */ = {
+			isa = PBXGroup;
+			children = (
+				EBF70B1721356B6300D413FC /* Source */,
+				EBF70B1A21356B6300D413FC /* Resource */,
+			);
+			name = ECPopView;
+			path = ECPopView/ECPopView;
+			sourceTree = "<group>";
+		};
+		EBF70B1721356B6300D413FC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EBF70B1921356B6300D413FC /* ECPopView.h */,
+				EBF70B1821356B6300D413FC /* ECPopView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EBF70B1A21356B6300D413FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EBF70B1C21356D3300D413FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF70B1D21356D3400D413FC /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF70B1B21356B6300D413FC /* ECPopView.m in Sources */,
 				EBF70B0521356A8300D413FC /* ViewController.m in Sources */,
 				EBF70B1021356A8500D413FC /* main.m in Sources */,
 				EBF70B0221356A8300D413FC /* AppDelegate.m in Sources */,
@@ -285,11 +328,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A7FVZRZ8Q;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				INFOPLIST_FILE = ECPopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxwcool.ECPopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +348,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A7FVZRZ8Q;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				INFOPLIST_FILE = ECPopView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxwcool.ECPopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
