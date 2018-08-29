@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB88818D2135BBC700AFC78B /* ECPopViewGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = EB88818C2135BBC700AFC78B /* ECPopViewGIF.gif */; };
+		EB8881902136749E00AFC78B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB88818F2136749E00AFC78B /* Utils.m */; };
 		EBF70B0221356A8300D413FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B0121356A8300D413FC /* AppDelegate.m */; };
 		EBF70B0521356A8300D413FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF70B0421356A8300D413FC /* ViewController.m */; };
 		EBF70B0821356A8300D413FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF70B0621356A8300D413FC /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		EB88818C2135BBC700AFC78B /* ECPopViewGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ECPopViewGIF.gif; path = ../../../../../ECPopViewGIF.gif; sourceTree = "<group>"; };
+		EB88818E2136749E00AFC78B /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EB88818F2136749E00AFC78B /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		EBF70AFD21356A8300D413FC /* ECPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF70B0021356A8300D413FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBF70B0121356A8300D413FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				EBF70B0B21356A8500D413FC /* LaunchScreen.storyboard */,
 				EBF70B0E21356A8500D413FC /* Info.plist */,
 				EBF70B0F21356A8500D413FC /* main.m */,
+				EB88818E2136749E00AFC78B /* Utils.h */,
+				EB88818F2136749E00AFC78B /* Utils.m */,
 			);
 			path = ECPopView;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				EBF70B1B21356B6300D413FC /* ECPopView.m in Sources */,
 				EBF70B0521356A8300D413FC /* ViewController.m in Sources */,
 				EBF70B1021356A8500D413FC /* main.m in Sources */,
+				EB8881902136749E00AFC78B /* Utils.m in Sources */,
 				EBF70B0221356A8300D413FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
