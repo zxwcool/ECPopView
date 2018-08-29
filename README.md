@@ -34,3 +34,16 @@ you can change the defined color for global mask back ground color or set a diff
 
 ## Using spring effective or not
 you can determin to use a spring effective animation or just to pop up the view with classic animation
+
+你可以决定是否使用带有弹性效果的弹出动画，或者只是用普通的动画来弹出视图
+
+if you want a spring effective, you need to set the spring affective parameter, springVelocity and springDamping
+
+如果你想要一个有弹簧效果的动画，你需要设置相应参数，弹簧速度和弹簧阻尼
+
+```
+    //no spring effective
+    [self popCustomView:aView formPosition:ECPopViewFromTop];
+    //with spring effective
+    [self popCustomViewSpring:aView formPosition:ECPopViewFromTop springVelocity:1.0 withDamping:0.5];
+```
