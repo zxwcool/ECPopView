@@ -12,7 +12,7 @@ in the UIViewController you can write this:
     [self popCustomView:aView formPosition:ECPopViewFromTop];//then just pop up the view and set the pop position
 ```
 
-## customize the mask back ground color 
+## Customize the mask back ground color 
 via ec_marskColor property, you can customize the mask back ground color, if you do not set the property for another value before your pop action, it will use the default back color defined in the header file:
 
 通过ec_marskColor属性，您可以自定义蒙版背景颜色，如果您在弹出操作之前没有为另一个值设置属性，它将使用头文件中定义的默认背景颜色:
@@ -32,7 +32,7 @@ you can change the defined color for global mask back ground color or set a diff
     [self popCustomView:aView formPosition:ECPopViewFromTop];
 ```
 
-## Using spring effective or not
+## Using spring effective
 you can determin to use a spring effective animation or just to pop up the view with classic animation
 
 你可以决定是否使用带有弹性效果的弹出动画，或者只是用普通的动画来弹出视图
@@ -46,4 +46,16 @@ if you want a spring effective, you need to set the spring affective parameter, 
     [self popCustomView:aView formPosition:ECPopViewFromTop];
     //with spring effective
     [self popCustomViewSpring:aView formPosition:ECPopViewFromTop springVelocity:1.0 withDamping:0.5];
+```
+## Config the pop animation duration
+you can control the pop animation duration before you pop a view every time
+
+您可以在每次弹出视图之前控制弹出动画的持续时间
+
+via set the ec_popAnimateDuration property to any value you want to control the pop animation duration, it is a NSNumber property.
+
+通过将ec_popAnimateDuration属性设置为任何您想要控制pop动画持续时间的值，它是一个NSNumber属性
+```
+    self.ec_popAnimateDuration = [NSNumber numberWithFloat:0.50];
+    [self popCustomView:view formPosition:ECPopViewFromBottom];
 ```
