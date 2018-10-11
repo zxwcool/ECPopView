@@ -122,8 +122,8 @@
 - (UIView*)makeSomeUsfullView{
     UIView* view = [UIView new];
     view.frame = CGRectMake(0, 0, self.view.width - 80, 200);
-    UIButton* btnSure = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, view.width/2, 40)];
-    UIButton* btnConcle = [[UIButton alloc] initWithFrame:btnSure.frame];
+//    UIButton* btnSure = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, view.width/2, 40)];
+//    UIButton* btnConcle = [[UIButton alloc] initWithFrame:btnSure.frame];
     
     return view;
 }
